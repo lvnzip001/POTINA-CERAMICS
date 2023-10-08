@@ -10,6 +10,35 @@
 # General
 --------------------------------------------------------------*/
 
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  background-color: white; /* White background for the card */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+}
+
+
+.btn-get-started {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover {
+  background-color: #0056b3;
+}
 
 
 
